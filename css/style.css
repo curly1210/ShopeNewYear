@@ -27,20 +27,20 @@ section {
   padding: 1.2rem 3.2rem;
   font-size: 18px;
   font-weight: 600;
-  color: #A50413;
-  border: 0.2rem solid #A50413;
+  color: #a50413;
+  border: 0.2rem solid #a50413;
   background: none;
   cursor: pointer;
   display: inline-block;
   border-radius: 5px;
 }
 .btn:hover {
-  background: #A50413;
+  background: #a50413;
   color: #fff;
 }
 
 .heading {
-  color: #A50413;
+  color: #a50413;
   font-size: 4.2rem;
   font-family: SVN-Allogist;
   font-weight: 400;
@@ -55,12 +55,12 @@ section {
   cursor: pointer;
 }
 .navigation a {
-  color: #5B6581;
+  color: #5b6581;
   font-size: 1.6rem;
   font-weight: 500;
 }
 .navigation a:hover {
-  color: #A50413;
+  color: #a50413;
 }
 
 html {
@@ -81,13 +81,13 @@ html::-webkit-scrollbar-thumb {
 
 .animation-tag-a {
   position: relative;
-  color: #2E2E2F;
+  color: #2e2e2f;
 }
 .animation-tag-a::after {
   content: "";
   height: 3px;
   width: 0;
-  background: #A50413;
+  background: #a50413;
   position: absolute;
   left: 0;
   bottom: -7px;
@@ -95,7 +95,7 @@ html::-webkit-scrollbar-thumb {
 }
 .animation-tag-a:hover::after {
   width: 100%;
-  color: #A50413;
+  color: #a50413;
 }
 
 header .logo {
@@ -104,7 +104,7 @@ header .logo {
 header .logo p {
   font-size: 4.8rem;
   font-weight: 400;
-  color: #A50413;
+  color: #a50413;
   font-family: SVN-Allogist;
   text-align: center;
   margin: 4.2rem 0 2.2rem;
@@ -117,6 +117,9 @@ header .logo .icons {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+header .logo .icons:hover {
+  cursor: pointer;
 }
 header .navbar {
   display: flex;
@@ -136,7 +139,8 @@ header .navbar a svg {
 header .banner {
   margin-top: 2rem;
 }
-header .banner .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, header .banner .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+header .banner .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+header .banner .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 8px 7px;
 }
 header .banner .swiper-pagination .swiper-pagination-bullet {
@@ -186,13 +190,13 @@ header .notice .box p {
   flex: 1 1 30rem;
 }
 .about .container h2 {
-  color: #2E2E2F;
+  color: #2e2e2f;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 0.8rem;
 }
 .about .container h3 {
-  color: #A50413;
+  color: #a50413;
   font-size: 32px;
   font-family: SVN-Allogist;
   font-weight: 400;
@@ -201,8 +205,8 @@ header .notice .box p {
   margin: 2.4rem 0;
 }
 .about .container .content p {
-  color: #2E2E2F;
-  font-size: 14px;
+  color: #2e2e2f;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 22px;
   width: 95%;
@@ -219,18 +223,19 @@ header .notice .box p {
   box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
 }
 
-.best-seller .list-product .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .best-seller .list-product .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+.best-seller .list-product .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.best-seller .list-product .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 8px 7px;
 }
 .best-seller .list-product .swiper-pagination .swiper-pagination-bullet {
   width: 1rem !important;
   height: 1rem !important;
-  background: #A50413 !important;
+  background: #a50413 !important;
   opacity: 1 !important;
 }
 .best-seller .list-product .swiper-pagination .swiper-pagination-bullet-active {
   background: none !important;
-  border: 1px solid #A50413;
+  border: 1px solid #a50413;
   width: 1.3rem !important;
   height: 1.3rem !important;
 }
@@ -250,7 +255,7 @@ header .notice .box p {
   box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.2);
 }
 .best-seller .list-product .container .box h2 {
-  color: #A50413;
+  color: #a50413;
   font-size: 1.8rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -265,7 +270,7 @@ header .notice .box p {
   margin-bottom: 1rem;
 }
 .best-seller .list-product .container .box .cost {
-  color: #2E2E2F;
+  color: #2e2e2f;
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 1.6rem;
@@ -279,20 +284,20 @@ header .notice .box p {
   font-size: 18px;
   padding: 1rem;
   background-color: rgba(165, 4, 19, 0.2);
-  color: #A50413;
+  color: #a50413;
   font-weight: 600;
   border-radius: 10px;
   text-align: center;
 }
 .best-seller .list-product .container .box .button .detail:hover {
-  background-color: #A50413;
-  color: #E8E8E8;
+  background-color: #a50413;
+  color: #e8e8e8;
 }
 .best-seller .list-product .container .box .button .cart {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #A50413;
+  border: 1px solid #a50413;
   border-radius: 7px;
 }
 
@@ -320,7 +325,7 @@ header .notice .box p {
   column-gap: 3rem;
 }
 .category .content h1 {
-  color: #A50413;
+  color: #a50413;
   font-size: 4.2rem;
   font-family: SVN-Allogist;
   font-weight: 400;
@@ -342,7 +347,7 @@ header .notice .box p {
   cursor: pointer;
 }
 .category .list-category .container .box p {
-  color: #848BA1;
+  color: #848ba1;
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -353,7 +358,7 @@ header .notice .box p {
 }
 .category .list-category .container .box:hover {
   box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.2);
-  color: #A50413;
+  color: #a50413;
 }
 
 .news .navigation {
@@ -372,7 +377,7 @@ header .notice .box p {
   object-fit: cover;
 }
 .news .container .box .title {
-  color: #2E2E2F;
+  color: #2e2e2f;
   font-size: 2.4rem;
   font-weight: 700;
   padding: 2.4rem 0 1.2rem;
@@ -380,7 +385,7 @@ header .notice .box p {
 }
 .news .container .box .content {
   color: #434344;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.8rem;
   margin-bottom: 1.6rem;
@@ -392,7 +397,7 @@ header .notice .box p {
   align-items: center;
 }
 .news .container .box .infor-author .name {
-  color: #2E2E2F;
+  color: #2e2e2f;
   font-size: 1.6rem;
   font-weight: 500;
   margin: 0.4rem 0;
@@ -419,18 +424,19 @@ header .notice .box p {
 .comment .list-comment {
   padding: 3.2rem 2rem 0;
 }
-.comment .list-comment .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .comment .list-comment .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+.comment .list-comment .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.comment .list-comment .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 8px 7px;
 }
 .comment .list-comment .swiper-pagination .swiper-pagination-bullet {
   width: 1rem !important;
   height: 1rem !important;
-  background: #A50413 !important;
+  background: #a50413 !important;
   opacity: 1 !important;
 }
 .comment .list-comment .swiper-pagination .swiper-pagination-bullet-active {
   background: none !important;
-  border: 1px solid #A50413;
+  border: 1px solid #a50413;
   width: 1.3rem !important;
   height: 1.3rem !important;
 }
@@ -447,7 +453,7 @@ header .notice .box p {
   border-radius: 50%;
 }
 .comment .list-comment .box .info-comment .name {
-  color: #0A171F;
+  color: #0a171f;
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 0.8rem;
@@ -488,14 +494,14 @@ header .notice .box p {
   align-items: center;
 }
 .contact .container .col-2 h1 {
-  color: #2E2E2F;
+  color: #2e2e2f;
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 2.4rem;
   text-align: center;
 }
 .contact .container .col-2 h2 {
-  color: #6D6D6D;
+  color: #6d6d6d;
   font-size: 1.5rem;
   text-align: center;
   line-height: 2.2rem;
@@ -510,7 +516,8 @@ header .notice .box p {
   gap: 2.4rem;
   margin-bottom: 2.4rem;
 }
-.contact .container .col-2 form .form-info .phone-number, .contact .container .col-2 form .form-info .email {
+.contact .container .col-2 form .form-info .phone-number,
+.contact .container .col-2 form .form-info .email {
   flex: 1 1 100%;
 }
 .contact .container .col-2 form .form-question textarea {
@@ -574,6 +581,9 @@ header .notice .box p {
   justify-content: space-between;
   align-items: center;
   gap: 1.6rem;
+}
+.footer .row-2 .icons:hover {
+  cursor: pointer;
 }
 
 .swiper-button-next::after,
