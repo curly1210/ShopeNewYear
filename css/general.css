@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: SVN-Allogist;
+  src: url("/font/SVN-Allogist.ttf");
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.15s linear;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 7rem;
+}
+
+.btn {
+  padding: 1.2rem 3.2rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #a50413;
+  border: 0.2rem solid #a50413;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #a50413;
+  color: #fff;
+}
+
+.heading {
+  color: #a50413;
+  font-size: 4.2rem;
+  font-family: SVN-Allogist;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+  cursor: pointer;
+}
+.navigation a {
+  color: #5b6581;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.navigation a:hover {
+  color: #a50413;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: #fff;
+}
+html::-webkit-scrollbar-thumb {
+  background: #10221b;
+}
+
+/*# sourceMappingURL=general.css.map */

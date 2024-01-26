@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Xoan Store</title>
+    <title>Chi tiết sản phẩm</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/detailProduct.css" />
 
     <!-- link slide -->
     <link
@@ -14,7 +15,7 @@
     />
   </head>
   <body>
-    <!-- section header starts -->
+    <!-- logo and nav -->
     <header class="header">
       <div class="logo">
         <!-- logo -->
@@ -85,9 +86,8 @@
           </svg>
         </div>
       </div>
-
       <nav class="navbar">
-        <a href="/index.html" class="animation-tag-a">trang chủ</a>
+        <a href="index.html" class="animation-tag-a">trang chủ</a>
         <a href="#" class="animation-tag-a">giới thiệu</a>
         <a href="#" class="animation-tag-a"
           >sản phẩm
@@ -140,660 +140,518 @@
         <a href="#" class="animation-tag-a">chính sách</a>
         <a href="#" class="animation-tag-a">liên hệ</a>
       </nav>
-
-      <div class="banner">
-        <div class="swiper banner-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="box">
-                <img src="/img/banner.png" alt="" />
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="box">
-                <img src="/img/banner.png" alt="" />
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="box">
-                <img src="/img/banner.png" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-      <div class="notice">
-        <div class="box">
-          <img src="/img/safe.png" alt="" />
-          <p>an toàn</p>
-        </div>
-        <div class="box">
-          <img src="/img/quality.png" alt="" />
-          <p>chất lượng</p>
-        </div>
-        <div class="box">
-          <img src="/img/super.png" alt="" />
-          <p>vượt trội</p>
-        </div>
-        <div class="box">
-          <img src="/img/fast.png" alt="" />
-          <p>nhanh chóng</p>
-        </div>
-      </div>
     </header>
-    <!-- section header ends -->
 
-    <!-- section about starts -->
-    <section class="about">
-      <div class="container">
-        <h2>Giới thiệu</h2>
-        <h3>Về XOAN Store</h3>
-
-        <div class="content">
-          <p style="margin-bottom: 1rem">
-            Xuân sang, Tết đến,... Làm sao thiếu được những món đồ Tết mang đậm
-            bản sắc dân tộc? Tại XOAN Store, chúng tôi cung cấp đa dạng các mặt
-            hàng đồ Tết, từ bánh chưng, bánh tét, dưa hành, câu đối đỏ, mâm ngũ
-            quả,... đến các loại quà tặng Tết ý nghĩa, phù hợp với mọi nhu cầu
-            của quý khách hàng.
-          </p>
-
-          <p>
-            Với đội ngũ nhân viên nhiệt tình, chuyên nghiệp, chúng tôi cam kết
-            mang đến cho quý khách hàng những sản phẩm chất lượng tốt nhất, giá
-            cả phải chăng và dịch vụ giao hàng tận nơi nhanh chóng.
-          </p>
-        </div>
-        <a href="#" class="btn">Tìm kiểu thêm</a>
-      </div>
-
-      <div class="image">
-        <img src="/img/about.png" alt="" />
-      </div>
+    <section class="direction">
+      <a href="#"
+        >Trang chủ
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="vuesax/linear/arrow-right">
+            <g id="arrow-right">
+              <path
+                id="Vector"
+                d="M5.93994 13.28L10.2866 8.93333C10.7999 8.42 10.7999 7.58 10.2866 7.06667L5.93994 2.72"
+                stroke="#969697"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </g>
+        </svg>
+      </a>
+      <a href="#"
+        >Sản phẩm
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="vuesax/linear/arrow-right">
+            <g id="arrow-right">
+              <path
+                id="Vector"
+                d="M5.93994 13.28L10.2866 8.93333C10.7999 8.42 10.7999 7.58 10.2866 7.06667L5.93994 2.72"
+                stroke="#969697"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </g>
+        </svg>
+      </a>
+      <a href="#" class="selected">Giỏ quà Wine & Cheese</a>
     </section>
 
-    <!-- section about ends -->
-
-    <!-- section best seller starts -->
-    <section class="best-seller">
-      <h1 class="heading">Sản phẩm bán chạy</h1>
-
-      <nav class="navigation">
-        <a href="#" class="animation-tag-a">Giỏ quà tết</a>
-        <a href="#" class="animation-tag-a">Rượu tết</a>
-        <a href="#" class="animation-tag-a">Hộp quà tết</a>
-      </nav>
-
-      <!-- container -->
-      <div class="list-product">
-        <div class="swiper product-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-1.png" alt="" />
-                  </div>
-                  <h2>giỏ kẹo mùa xuân</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-2.png" alt="" />
-                  </div>
-                  <h2>Giỏ quà wine</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-3.png" alt="" />
-                  </div>
-                  <h2>Giỏ quà nhập ngoại</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-4.png" alt="" />
-                  </div>
-                  <h2>Giỏ quà phát tài</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-1.png" alt="" />
-                  </div>
-                  <h2>giỏ kẹo mùa xuân</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-2.png" alt="" />
-                  </div>
-                  <h2>Giỏ quà wine</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-3.png" alt="" />
-                  </div>
-                  <h2>Giỏ quà nhập ngoại</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="box">
-                  <div class="image">
-                    <img src="/img/best-4.png" alt="" />
-                  </div>
-                  <h2>Giỏ quà phát tài</h2>
-                  <p class="content">
-                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
-                    giỏ quà Tết độc đáo, mang phong cách hiện
-                  </p>
-
-                  <p class="cost">750.000đ</p>
-
-                  <div class="button">
-                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
-                    <a href="#" class="cart">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="Buy">
-                          <path
-                            id="Buy_2"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
-                            fill="#A50413"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style="margin-top: 3.2rem">
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="swiper-pagination"></div> -->
-    </section>
-    <!-- section best seller ends -->
-
-    <!-- banner 2 -->
-    <div class="banner-2">
-      <div class="content">
-        <img src="/img/banner-2.png" />
-        <h1>
-          “ Tự hào là đơn vị cung cấp quà tặng, rượu tết đã có mặt hơn 20 năm
-          trên thị trường Việt Nam ”
-        </h1>
-      </div>
-    </div>
-
-    <!-- section category starts -->
-    <section class="category">
-      <div class="content">
-        <h1>Khám phá danh mục sản phẩm</h1>
-        <p>
-          Tiêu chí của chúng tôi chính là luôn mang đến cho khách hàng những sản
-          phẩm chất lượng tốt nhất
-        </p>
-        <a href="#" class="btn">Xem thêm</a>
-      </div>
-
-      <!-- test start -->
-
-      <div class="list-category">
-        <div class="container">
-          <div class="box">
-            <div class="image">
-              <img src="/img/category-1.png" alt="" />
-            </div>
-            <p>Phổ biến</p>
-            <h2>Giỏ quà tết</h2>
-          </div>
-
-          <div class="box">
-            <div class="image">
-              <img src="/img/category-2.png" alt="" />
-            </div>
-            <p>Phổ biến</p>
-            <h2>Rượu tết</h2>
-          </div>
-
-          <div class="box">
-            <div class="image">
-              <img src="/img/category-3.png" alt="" />
-            </div>
-            <p>Phổ biến</p>
-            <h2>Hộp quà tết</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- section category ends -->
-
-    <!-- sections news starts -->
-    <section class="news">
-      <h1 class="heading">Tin tức</h1>
-
-      <nav class="navigation">
-        <a href="#" class="animation-tag-a">Mới nhất</a>
-        <a href="#" class="animation-tag-a">Phổ biến</a>
-      </nav>
-
-      <div class="container">
-        <div class="box">
-          <div>
-            <img class="thumbnail" src="img/news-1.png" alt="" />
-          </div>
-          <h1 class="title">Sự khác biệt giữa tết miền Bắc và tết miền Nam</h1>
-          <p class="content">
-            Dù cùng sinh sống trên lãnh thổ Việt Nam nhưng do khác nhau về đặc
-            điểm khí hậu, văn hóa và con người nên hai miền Bắc -
+    <!-- section product starts -->
+    <section class="product-detail">
+      <div class="product-cart">
+        <div><img src="/img/product-cart.png" alt="" /></div>
+        <div class="product-info">
+          <p class="title">Giỏ quà Wine & Cheese</p>
+          <p class="vote">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Star">
+                <g clip-path="url(#clip0_400_766)">
+                  <path
+                    id="Vector"
+                    d="M14.8149 8.88421L14.9316 9.17751L15.2466 9.19822L22.7341 9.69048L16.9858 14.5644L16.7475 14.7664L16.8247 15.0692L18.707 22.4577L12.2624 18.3841L11.9952 18.2152L11.7281 18.3841L5.28347 22.4577L7.1658 15.0692L7.24288 14.7666L7.00491 14.5646L1.26461 9.69048L8.74385 9.19822L9.05883 9.17749L9.17557 8.88421L11.9952 1.80053L14.8149 8.88421Z"
+                    fill="#EEC341"
+                    stroke="#EEC341"
+                  />
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_400_766">
+                  <rect width="24" height="24" rx="0.3" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            4,9 / 5,0 | Đã bán: 1000
           </p>
-
-          <div class="infor-author">
-            <img src="/img/avatar-1.png" alt="" />
-            <div>
-              <p class="name">Phạm Xuân Cường</p>
-              <p class="datetime">Ngày 5 tháng 6 &#8226; 8 giờ trước</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div>
-            <img class="thumbnail" src="img/news-2.jpg" alt="" />
-          </div>
-          <h1 class="title">Thăm 5 làng gói bánh chưng nổi tiếng miền Bắc</h1>
-          <p class="content">
-            Những ngày giáp tết này, không khí tại các làng nghề càng trở nên
-            hối hả nhưng có lẽ làng nghề được quan tâm nhiều nhất thời...
+          <p class="cost">
+            <span class="cost-real">2.000.000đ </span>
+            <span class="cost-sale">1.750.000đ</span>
+            <span class="percent-sale">-12%</span>
           </p>
-
-          <div class="infor-author">
-            <img src="/img/avatar-2.png" alt="" />
-            <div>
-              <p class="name">Lế Tế Trường</p>
-              <p class="datetime">Ngày 5 tháng 6 &#8226; 8 giờ trước</p>
+          <div class="count">
+            <p>Số lượng:</p>
+            <div class="input-number">
+              <a class="line subtract" href="">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="subtract-line">
+                    <path
+                      id="Vector"
+                      d="M3.3335 7.33327V8.6666H12.6668V7.33327H3.3335Z"
+                      fill="#3F4254"
+                    />
+                  </g>
+                </svg>
+              </a>
+              <a class="line number" href="">1</a>
+              <a class="line add" href=""
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="add-line">
+                    <path
+                      id="Vector"
+                      d="M7.3335 7.83327H7.8335V7.33327V3.83326H8.16683V7.33327V7.83327H8.66683H12.1668V8.16661H8.66683H8.16683V8.66661V12.1666H7.8335V8.66661V8.16661H7.3335H3.8335V7.83327H7.3335Z"
+                      fill="#3F4254"
+                      stroke="#3F4254"
+                    />
+                  </g>
+                </svg>
+              </a>
             </div>
           </div>
-        </div>
-
-        <div class="box">
-          <div>
-            <img class="thumbnail" src="img/news-3.jpg" alt="" />
-          </div>
-          <h1 class="title">Phong tục đón tết nguyên đán của người Việt Nam</h1>
-          <p class="content">
-            Mỗi người Việt Nam có tục hằng năm mỗi khi Tết đến dù là bận bịu
-            công việc tới cỡ nào, hay định cư, sinh sống tại nơi đâu thì...
-          </p>
-
-          <div class="infor-author">
-            <img src="/img/avatar-3.png" alt="" />
-            <div>
-              <p class="name">Nguyễn Anh Duy</p>
-              <p class="datetime">Ngày 5 tháng 6 &#8226; 8 giờ trước</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex">
-        <a href="#" class="btn">Xem thêm</a>
-      </div>
-    </section>
-
-    <!-- section news ends -->
-
-    <!-- section comment starts -->
-    <section class="comment">
-      <h1 class="heading">Mọi người nói gì về XOAN store?</h1>
-      <p class="open">Những chia sẻ của khách hàng khi đến với chúng tôi</p>
-
-      <div class="list-comment">
-        <div class="swiper comment-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="box">
-                <div class="info-comment">
-                  <div class="image">
-                    <img src="/img/avatar-comment.png" alt="" />
-                  </div>
-                  <div>
-                    <p class="name">Phạm Xuân Cường</p>
-                    <p class="job">Lập trình viên</p>
-                  </div>
-                </div>
-                <p class="detail">
-                  “Trải nghiệm mua hàng trên XOAN store thật sự rất tuyệt vời,
-                  sản phẩm đa dạng, chất lượng tốt, giá cả hợp lý, giao hàng
-                  nhanh chóng. Tôi rất hài lòng và sẽ tiếp tục ủng hộ”
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="box">
-                <div class="info-comment">
-                  <div class="image">
-                    <img src="/img/avatar-comment-2.jpg" alt="" />
-                  </div>
-                  <div>
-                    <p class="name">Đàm Hoàng Lĩnh</p>
-                    <p class="job">Kĩ sư cầu đường</p>
-                  </div>
-                </div>
-                <p class="detail">
-                  “Trải nghiệm mua hàng trên XOAN store thật sự rất tuyệt vời,
-                  sản phẩm đa dạng, chất lượng tốt, giá cả hợp lý, giao hàng
-                  nhanh chóng. Tôi rất hài lòng và sẽ tiếp tục ủng hộ”
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="box">
-                <div class="info-comment">
-                  <div class="image">
-                    <img src="/img/avatar-comment-3.jpg" alt="" />
-                  </div>
-                  <div>
-                    <p class="name">Hà Kim Oanh</p>
-                    <p class="job">Phiên dịch viên</p>
-                  </div>
-                </div>
-                <p class="detail">
-                  “Trải nghiệm mua hàng trên XOAN store thật sự rất tuyệt vời,
-                  sản phẩm đa dạng, chất lượng tốt, giá cả hợp lý, giao hàng
-                  nhanh chóng. Tôi rất hài lòng và sẽ tiếp tục ủng hộ”
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div style="margin-top: 3.2rem">
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- section comment ends -->
-
-    <!-- section contact starts -->
-    <section class="contact">
-      <h1 class="heading">Liên hệ với chúng tôi</h1>
-
-      <div class="container">
-        <div class="col-1">
-          <img src="/img/map.png" alt="" />
-        </div>
-        <div class="col-2">
-          <h1>Đặt câu hỏi cho chúng tôi</h1>
-          <h2>
-            Cảm ơn bạn đã đặt câu hỏi cho chúng tôi, chúng tôi sẽ liên hiện với
-            bạn sau 24H tính từ lúc bạn đặt câu hỏi.
-          </h2>
-
-          <form action="">
-            <div class="form-name">
-              <p class="text-form">Họ và tên</p>
-              <input class="input-form" type="text" />
-            </div>
-
-            <div class="form-info">
-              <div class="phone-number">
-                <p class="text-form">Số điện thoại</p>
-                <input class="input-form" type="text" />
-              </div>
-              <div class="email">
-                <p class="text-form">Địa chỉ Email</p>
-                <input class="input-form" type="text" />
-              </div>
-            </div>
-
-            <div class="form-question">
-              <p class="text-form">Câu hỏi</p>
-              <textarea
-                class="input-form"
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-              ></textarea>
-            </div>
-          </form>
           <div class="button">
-            <a class="btn" href="#">Gửi ngay</a>
+            <a class="btn" href="">Thêm vào giỏ hàng</a>
+            <a class="btn add-to-card" href="">Mua ngay</a>
+          </div>
+          <p class="phone">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="call">
+                <g id="vuesax/linear/call">
+                  <g id="call_2">
+                    <g id="call_3">
+                      <path
+                        id="Vector"
+                        d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                        stroke="#A50413"
+                        stroke-width="2"
+                        stroke-miterlimit="10"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            Tư vấn đặt hàng <span class="phone-number">0898645513</span>
+          </p>
+        </div>
+      </div>
+      <div class="product-description">
+        <nav>
+          <a class="animation-tag-a" href="">Mô tả</a>
+          <a class="animation-tag-a" href="">Chi tiết sản phẩm</a>
+        </nav>
+
+        <p>
+          Ý nghĩa và mục đích tặng quà chẳng phải bao giờ và ở nơi nào cũng
+          giống nhau. Có những món quà chỉ thuần túy mang ý nghĩa tinh thần. Có
+          những món quà khiến ta vui sướng, có những món quà làm ta ấm lòng...
+          Có những món quà chỉ khiến ta lưu tâm trong chốc lát nhưng cũng có
+          những món quà ta mang theo suốt cả cuộc đời.Drink Shop tự hào là nơi
+          cung cấp những các dòng sản phẩm quà tặng tết như giỏ quà tết , qùa
+          tết cao cấp , quà tết ý nghĩa , quà biếu sếp, hộp quà tết ... chất
+          lượng hàng đầu Việt Nam . Với phương châm "Trao đi yêu thương để nhận
+          lấy yêu thương" . Drink Shop luôn được khách hàng trên toàn quốc tín
+          nhiệm và yêu mến.
+        </p>
+
+        <img src="/img/des.png" alt="" />
+        <p>
+          Quà biếu tặng dịp Tết mang nét truyền thống văn hóa cả người Việt bởi
+          nó còn gửi gắm trong đó tình cảm và thành ý của người tặng. Giỏ quà
+          Tết là món quà chứa đựng những thông điệu đơn giản nhưng chân thành.
+          Hiểu được điều đó, chúng tôi đã ra mắt những mẫu giỏ quà Tết sang
+          trọng, độc đáo và ý nghĩa chắc chắn sẽ đem lại sự hài lòng cho quý
+          khách hàng. Được tính toán theo nhu cầu cũng như giá trị của từng sản
+          phẩm, giỏ quà bao gồm đầy đủ các loại thực phẩm thiết yếu cho ngày
+          Tết: trà, cà phê, mứt, rượu, bánh kẹo…Tất cả các sản phẩm đều được
+          chọn từ các thương hiệu nổi tiếng, uy tín, đảm bảo an toàn vệ sinh
+          thực phẩm mang lại sự yên tâm và hài lòng cho người được nhận.
+        </p>
+      </div>
+      <div></div>
+    </section>
+
+    <!-- section list most products start -->
+    <section class="most-product">
+      <h1>Sản phẩm nổi bật</h1>
+
+      <div class="list-product">
+        <div class="swiper most-product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-1.png" alt="" />
+                  </div>
+                  <h2>giỏ kẹo mùa xuân</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-2.png" alt="" />
+                  </div>
+                  <h2>Giỏ quà wine</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-3.png" alt="" />
+                  </div>
+                  <h2>Giỏ quà nhập ngoại</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-4.png" alt="" />
+                  </div>
+                  <h2>Giỏ quà phát tài</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-1.png" alt="" />
+                  </div>
+                  <h2>giỏ kẹo mùa xuân</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-2.png" alt="" />
+                  </div>
+                  <h2>Giỏ quà wine</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-3.png" alt="" />
+                  </div>
+                  <h2>Giỏ quà nhập ngoại</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="image">
+                    <img src="/img/best-4.png" alt="" />
+                  </div>
+                  <h2>Giỏ quà phát tài</h2>
+                  <p class="content">
+                    Ngoài giỏ quà Tết truyền thống, hiện nay còn có nhiều loại
+                    giỏ quà Tết độc đáo, mang phong cách hiện
+                  </p>
+
+                  <p class="cost">750.000đ</p>
+
+                  <div class="button">
+                    <a href="/detailProduct.html" class="detail">Chi tiết</a>
+                    <a href="#" class="cart">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Buy">
+                          <path
+                            id="Buy_2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.3575 0.929465L1.23914 0.917087C0.808429 0.901342 0.421637 1.20593 0.346091 1.64242L0.333713 1.76078C0.317968 2.19149 0.62256 2.57828 1.05905 2.65383L2.81956 2.95831L3.88651 15.67L3.90859 15.861C4.12325 17.3106 5.37001 18.4003 6.85494 18.4003H19.5856L19.7773 18.3942C21.1731 18.3051 22.3303 17.2496 22.534 15.8474L23.6413 8.19596L23.6604 8.02021C23.7623 6.62129 22.654 5.40715 21.2271 5.40715H4.78072L4.50687 2.13846L4.48623 2.00913C4.40638 1.67276 4.13294 1.40983 3.78416 1.34947L1.3575 0.929465ZM6.71968 16.643C6.14186 16.5797 5.67976 16.1157 5.63041 15.5241L4.92772 7.15715H21.2271L21.3299 7.16471C21.6983 7.21947 21.9644 7.56396 21.9093 7.9454L20.8021 15.5963L20.7744 15.7331C20.6339 16.2681 20.1493 16.6503 19.5856 16.6503H6.85494L6.71968 16.643ZM4.89307 22.0162C4.89307 21.0407 5.68369 20.2487 6.65941 20.2487C7.63499 20.2487 8.42691 21.0406 8.42691 22.0162C8.42691 22.9919 7.63486 23.7825 6.65941 23.7825C5.68382 23.7825 4.89307 22.9917 4.89307 22.0162ZM18.0197 22.0162C18.0197 21.0406 18.8116 20.2487 19.7872 20.2487C20.7628 20.2487 21.5547 21.0406 21.5547 22.0162C21.5547 22.9919 20.7627 23.7825 19.7872 23.7825C18.8118 23.7825 18.0197 22.9919 18.0197 22.0162ZM18.5899 10.5941C18.5899 10.1109 18.1981 9.71915 17.7149 9.71915H14.4797L14.361 9.72713C13.9339 9.78507 13.6047 10.1512 13.6047 10.5941C13.6047 11.0774 13.9964 11.4691 14.4797 11.4691H17.7149L17.8336 11.4612C18.2607 11.4032 18.5899 11.0371 18.5899 10.5941Z"
+                            fill="#A50413"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 3.2rem">
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
     </section>
-    <!-- section contact ends -->
+    <!-- section list most products ends -->
 
-    <!-- section footer starts -->
-
+    <!-- section footer start -->
     <div style="background-color: #a50413">
       <section class="footer">
         <div class="row-1">
@@ -901,7 +759,6 @@
     <!-- section footer ends -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <script src="js/scripts.js"></script>
   </body>
 </html>

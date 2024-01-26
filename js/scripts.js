@@ -25,6 +25,14 @@ var swiper = new Swiper(".comment-slider", {
   },
 });
 
+var swiper = new Swiper(".most-product-slider", {
+  loop:true,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+
 
 
 

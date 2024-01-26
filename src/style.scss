@@ -1,96 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
-
-@font-face {
-  font-family: SVN-Allogist;
-  src: url("/font/SVN-Allogist.ttf");
-}
-
 $black: #10221b;
 $white: #fff;
 $red: #a50413;
 $boder: 0.2rem solid $red;
-
-* {
-  font-family: "Montserrat", sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  transition: 0.15s linear;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-section {
-  padding: 0rem 9% 7rem;
-}
-
-.btn {
-  padding: 1.2rem 3.2rem;
-  font-size: 18px;
-  font-weight: 600;
-  color: $red;
-  border: $boder;
-  background: none;
-  cursor: pointer;
-  display: inline-block;
-  border-radius: 5px;
-
-  &:hover {
-    background: $red;
-    color: $white;
-  }
-}
-
-.heading {
-  color: $red;
-  font-size: 4.2rem;
-  font-family: SVN-Allogist;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 2.4rem;
-}
-
-.navigation {
-  display: flex;
-  justify-content: center;
-  gap: 3.2rem;
-  cursor: pointer;
-
-  a {
-    color: #5b6581;
-    font-size: 1.6rem;
-    font-weight: 500;
-
-    &:hover {
-      color: $red;
-    }
-  }
-}
-
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
-
-  &::-webkit-scrollbar {
-    width: 1rem;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: $white;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: $black;
-  }
-}
 
 // header
 .animation-tag-a {
@@ -117,6 +28,8 @@ html {
 header {
   // min-height: 100vh;
   .logo {
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
     p {
       font-size: 4.8rem;
@@ -130,7 +43,7 @@ header {
     .icons {
       position: absolute;
       top: 0;
-      right: 9%;
+      right: 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -679,6 +592,12 @@ header {
             padding: 1rem;
           }
         }
+      }
+
+      .button {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.4rem;
       }
     }
   }
