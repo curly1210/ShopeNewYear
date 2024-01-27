@@ -47,7 +47,7 @@ header .navbar {
   justify-content: center;
   column-gap: 3.2rem;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #434344;
   font-weight: 500;
 }
@@ -55,7 +55,7 @@ header .navbar a {
   line-height: 2;
 }
 header .navbar a svg {
-  vertical-align: sub;
+  vertical-align: text-top;
 }
 header .banner {
   margin-top: 2rem;
