@@ -33,6 +33,66 @@ section {
   // padding: 0rem 9% 7rem;
 }
 
+.direction {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 2rem;
+  padding: 0;
+  a {
+    line-height: 2;
+    font-size: 1.6rem;
+    color: #969697;
+    font-weight: 500;
+  }
+
+  svg {
+    vertical-align:sub;
+  }
+
+  .selected {
+    color: #2E2E2F;
+    font-weight: 700;
+  }
+}
+
+.paganation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+
+  a {
+    width:35px;
+    height: 35px;
+    font-size: 1.5rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    transition: 0.3s all;
+
+    &:hover {
+      border: none;
+      color: white;
+      background-color: $red;
+    }
+  }
+
+  .checked {
+    border: none;
+      color: white;
+      background-color: $red;
+  }
+
+
+
+}
+
 .btn {
   padding: 1.2rem 3.2rem;
   font-size: 18px;
