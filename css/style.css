@@ -296,6 +296,7 @@ header .notice .box p {
 .news .container .box .thumbnail {
   width: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
 .news .container .box .title {
   color: #2e2e2f;

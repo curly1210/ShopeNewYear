@@ -1,0 +1,191 @@
+$black: #10221b;
+$white: #fff;
+$red: #a50413;
+$boder: 0.2rem solid $red;
+
+.news-detail {
+  margin-top: 3.2rem;
+  padding-bottom: 0;
+  h1 {
+    color: #2E2E2F;
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+
+  .author {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    column-gap: 1.4rem;
+    align-items: center;
+    margin: 1.6rem 0;
+
+    .image {
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .info {
+      .name {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #2E2E2F;
+        margin-bottom: 0.2rem;
+      }
+
+      .date {
+        color: #969697;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    .introduce {
+      color: #2E2E2F;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+   .image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 60%;
+        border-radius: 5px;
+      }
+
+      p {
+        color: #2E2E2F;
+        font-size: 1.6rem;
+        font-style: italic;
+        margin-top: 0.8rem;
+      }
+   }
+
+    h3 {
+      color: #2E2E2F;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+    p {
+      color: #2E2E2F;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 2.5rem;
+    }
+  }
+  
+}
+
+// section bai viet lien quan
+.news {
+  padding: 0;
+  .head {
+    color: #2E2E2F;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 3.2rem 0;
+  }
+}
+
+.best-seller {
+  // padding: 0;
+
+  h1 {
+    color: #2E2E2F;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 3.2rem 0;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2.4rem;
+    // margin-top: 6rem;
+
+    .box {
+      padding: 0 3rem 2.5rem;
+
+      &:hover {
+        box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      h2 {
+        color: #a50413;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 1.2rem;
+        margin-top: 1rem;
+      }
+
+      .content {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #828282;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .cost {
+        color: #2e2e2f;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1.6rem;
+      }
+
+      .button {
+        display: grid;
+        grid-template-columns: 1fr 42px;
+        column-gap: 0.8rem;
+        .detail {
+          font-size: 18px;
+          padding: 1rem;
+          background-color: rgba(165, 4, 19, 0.2);
+          color: $red;
+          font-weight: 600;
+          border-radius: 10px;
+          text-align: center;
+
+          &:hover {
+            background-color: $red;
+            color: #e8e8e8;
+          }
+        }
+
+        .cart {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid $red;
+          border-radius: 7px;
+
+          // &:hover {
+          //   border-color: white;
+          //   background-color: $red;
+          //   color: white;
+
+          // }
+        }
+      }
+    }
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.8rem;
+  }
+
+
+}
