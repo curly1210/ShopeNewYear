@@ -21,6 +21,25 @@ $boder: 0.2rem solid $red;
   transition: 0.15s linear;
 }
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $white;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $black;
+  }
+}
+
 img {
   display: block;
   width: 100%;
@@ -114,8 +133,52 @@ section {
       background-color: $red;
   }
 
+}
 
+.side-bar {
+  aside {
+    display: flex;
+    flex-direction: column;
+    // border-radius: 10px;
 
+    span {
+      font-size: 1.6rem;
+      font-weight: 600;
+      padding: 1rem;
+      background: #a50413;
+      color: rgb(255, 255, 255);
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+
+    .flex-news {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 1.5rem 1rem;
+      font-size: 1.6rem;
+      gap: 1.2rem ;
+      background: #0000000a;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+      a {
+        color: #2e2e2f;
+        line-height: 2;
+        border-bottom: 1px solid white;
+        width: 100%;
+
+        &:hover {
+          font-weight: 500;
+        }
+
+        &:nth-last-child(1) {
+          border: none;
+        }
+      }
+      
+    }
+  }
 }
 
 .btn {
@@ -161,21 +224,6 @@ section {
   }
 }
 
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+// drop down menu
 
-  &::-webkit-scrollbar {
-    width: 1rem;
-  }
 
-  &::-webkit-scrollbar-track {
-    background: $white;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: $black;
-  }
-}

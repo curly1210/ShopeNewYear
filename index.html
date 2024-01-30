@@ -87,58 +87,46 @@
       </div>
 
       <nav class="navbar">
-        <a href="/index.html" class="animation-tag-a">trang chủ</a>
-        <a href="#" class="animation-tag-a">giới thiệu</a>
-        <a href="#" class="animation-tag-a"
-          >sản phẩm
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="vuesax/linear/arrow-down">
-              <g id="arrow-down">
-                <path
-                  id="Vector"
-                  d="M13.28 5.96667L8.9333 10.3133C8.41997 10.8267 7.57997 10.8267 7.06664 10.3133L2.71997 5.96667"
-                  stroke="#434344"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
+        <a href="index.html" class="animation-tag-a">trang chủ</a>
+
+        <div class="dropdown" style="position: relative">
+          <a style="color: inherit" href="#"
+            >sản phẩm
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="vuesax/linear/arrow-down">
+                <g id="arrow-down">
+                  <path
+                    id="Vector"
+                    d="M13.28 5.96667L8.9333 10.3133C8.41997 10.8267 7.57997 10.8267 7.06664 10.3133L2.71997 5.96667"
+                    stroke="#434344"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
               </g>
-            </g>
-          </svg>
-        </a>
-        <a href="#" class="animation-tag-a"
-          >danh mục
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="vuesax/linear/arrow-down">
-              <g id="arrow-down">
-                <path
-                  id="Vector"
-                  d="M13.28 5.96667L8.9333 10.3133C8.41997 10.8267 7.57997 10.8267 7.06664 10.3133L2.71997 5.96667"
-                  stroke="#434344"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-            </g>
-          </svg>
-        </a>
-        <a href="/news.html" class="animation-tag-a">Tin tức</a>
-        <a href="/contact.html" class="animation-tag-a">liên hệ</a>
+            </svg>
+            <div class="content-dropdown">
+              <a class="animation-tag-a" href="/detailProduct.html">Giỏ hoa</a>
+              <a class="animation-tag-a" href="/detailProduct.html"
+                >Giỏ quà tết</a
+              >
+              <a class="animation-tag-a" href="/detailProduct.html">Giỏ rượu</a>
+            </div>
+          </a>
+        </div>
+
+        <a href="product.html" class="animation-tag-a">danh mục </a>
+        <a href="product-price.html" class="animation-tag-a">Báo giá</a>
+        <a href="news.html" class="animation-tag-a">tin tức</a>
+        <a href="contact.html" class="animation-tag-a">liên hệ</a>
       </nav>
 
       <div class="banner">
@@ -212,7 +200,7 @@
       </div>
 
       <div class="image">
-        <img src="/img/about.png" alt="" />
+        <img style="border-radius: 5px" src="/img/about.png" alt="" />
       </div>
     </section>
 
@@ -757,7 +745,16 @@
 
       <div class="container">
         <div class="col-1">
-          <img src="/img/map.png" alt="" />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d954091.723052763!2d105.94723596407002!3d20.91550611322959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac16f052bfff%3A0x1b2d644fdf1b4bae!2zQ8O0bmcgVHkgQ-G7lSBQaOG6p24gQsOhbmggS-G6uW8gSOG6o2kgTWluaA!5e0!3m2!1svi!2s!4v1706342971917!5m2!1svi!2s"
+            width="600"
+            height="450"
+            style="border: 0; border-radius: 6px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <!-- <img src="/img/map.png" alt="" /> -->
         </div>
         <div class="col-2">
           <h1>Đặt câu hỏi cho chúng tôi</h1>

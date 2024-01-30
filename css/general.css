@@ -14,6 +14,22 @@
   transition: 0.15s linear;
 }
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: #fff;
+}
+html::-webkit-scrollbar-thumb {
+  background: #10221b;
+}
+
 img {
   display: block;
   width: 100%;
@@ -95,6 +111,43 @@ section {
   background-color: #a50413;
 }
 
+.side-bar aside {
+  display: flex;
+  flex-direction: column;
+}
+.side-bar aside span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem;
+  background: #a50413;
+  color: rgb(255, 255, 255);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.side-bar aside .flex-news {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1.5rem 1rem;
+  font-size: 1.6rem;
+  gap: 1.2rem;
+  background: rgba(0, 0, 0, 0.0392156863);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.side-bar aside .flex-news a {
+  color: #2e2e2f;
+  line-height: 2;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+.side-bar aside .flex-news a:hover {
+  font-weight: 500;
+}
+.side-bar aside .flex-news a:nth-last-child(1) {
+  border: none;
+}
+
 .btn {
   padding: 1.2rem 3.2rem;
   font-size: 18px;
@@ -133,22 +186,6 @@ section {
 }
 .navigation a:hover {
   color: #a50413;
-}
-
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
-}
-html::-webkit-scrollbar {
-  width: 1rem;
-}
-html::-webkit-scrollbar-track {
-  background: #fff;
-}
-html::-webkit-scrollbar-thumb {
-  background: #10221b;
 }
 
 /*# sourceMappingURL=general.css.map */

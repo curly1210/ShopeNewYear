@@ -1,0 +1,113 @@
+
+$black: #10221b;
+$white: #fff;
+$red: #a50413;
+$boder: 0.2rem solid $red;
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 3rem;
+  padding-top: 3.2rem;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+
+    .show {
+      font-size: 1.4rem;
+      color: #2E2E2F;
+
+      span {
+        color: #A50413;
+        font-weight: 700;
+      }
+    }
+
+    .sort {
+      font-size: 1.6rem;
+      font-weight: 500;
+      
+      i {
+        margin-right: 0.8rem;
+      }
+    }
+  }
+
+  .list-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // padding: 0 2rem;
+    gap: 2.5rem;
+
+    .box {
+        padding: 0 3rem 2.5rem;
+        border-radius: 5px ;
+
+        &:hover {
+          // box-shadow: 0 0 15px 2px rgb(2 2 2 / 9%);
+          box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+          color: #a50413;
+          font-size: 1.8rem;
+          font-weight: 700;
+          text-transform: capitalize;
+          margin-bottom: 1.2rem;
+          margin-top: 1rem;
+        }
+
+        .content {
+          font-size: 1.4rem;
+          font-weight: 500;
+          color: #828282;
+          line-height: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        .cost {
+          color: #2e2e2f;
+          font-size: 1.8rem;
+          font-weight: 700;
+          margin-bottom: 1.6rem;
+        }
+
+        .button {
+          display: grid;
+          grid-template-columns: 1fr 42px;
+          column-gap: 0.8rem;
+          .detail {
+            font-size: 18px;
+            padding: 1rem;
+            background-color: rgba(165, 4, 19, 0.2);
+            color: $red;
+            font-weight: 600;
+            border-radius: 10px;
+            text-align: center;
+
+            &:hover {
+              background-color: $red;
+              color: #e8e8e8;
+            }
+          }
+
+          .cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid $red;
+            border-radius: 7px;
+
+            // &:hover {
+            //   border-color: white;
+            //   background-color: $red;
+            //   color: white;
+
+            // }
+          }
+        }
+      }
+  }
+}
