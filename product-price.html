@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Liên hệ</title>
+    <title>Báo giá sản phẩm</title>
     <link rel="stylesheet" href="/css/general.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/product-price.css" />
   </head>
   <body>
-    <!-- logo and navbar start -->
-
+    <!-- logo and nav start -->
     <header class="header">
       <div class="logo">
         <!-- logo -->
@@ -133,10 +132,12 @@
           </svg>
         </a>
         <a href="/news.html" class="animation-tag-a">tin tức</a>
-        <a href="#" class="animation-tag-a">liên hệ</a>
+        <a href="/contact.html" class="animation-tag-a">liên hệ</a>
       </nav>
     </header>
+    <!-- logo and nav end -->
 
+    <!--section direction start-->
     <div class="full-width">
       <section class="direction">
         <a href="#"
@@ -163,68 +164,77 @@
             </g>
           </svg>
         </a>
-        <a href="#" class="selected">Liên hệ</a>
+
+        <a href="#" class="selected">Báo giá</a>
         <div class="decor"><img src="/img/direction.png" alt="" /></div>
       </section>
     </div>
-    <!-- logo and navbar end -->
+    <!--section direction end-->
 
-    <!-- section contact start -->
-    <section class="contact">
-      <div class="container">
-        <div class="col-2">
-          <h1>Đặt câu hỏi cho chúng tôi</h1>
-          <h2>
-            Cảm ơn bạn đã đặt câu hỏi cho chúng tôi, chúng tôi sẽ liên hiện với
-            bạn sau 24H tính từ lúc bạn đặt câu hỏi.
-          </h2>
+    <!-- section product price start -->
+    <section class="product-price">
+      <table>
+        <tr>
+          <th>STT</th>
+          <th>Tên sản phẩm</th>
+          <th>Đơn giá</th>
+          <th>Số lượng</th>
+          <th>Hình ảnh sản phẩm</th>
+        </tr>
 
-          <form action="">
-            <div class="form-name">
-              <p class="text-form">Họ và tên</p>
-              <input class="input-form" type="text" />
-            </div>
+        <tr>
+          <td><p>1</p></td>
+          <td><p>Giỏ quà wine & cheese</p></td>
+          <td><p>1.000.000 VNĐ</p></td>
+          <td><p>1</p></td>
+          <td><img src="/img/best-2.png" alt="" /></td>
+        </tr>
 
-            <div class="form-info">
-              <div class="phone-number">
-                <p class="text-form">Số điện thoại</p>
-                <input class="input-form" type="text" />
-              </div>
-              <div class="email">
-                <p class="text-form">Địa chỉ Email</p>
-                <input class="input-form" type="text" />
-              </div>
-            </div>
+        <tr>
+          <td><p>2</p></td>
+          <td><p>Giỏ quà wine & cheese</p></td>
+          <td><p>1.000.000 VNĐ</p></td>
+          <td><p>1</p></td>
+          <td><img src="/img/best-3.png" alt="" /></td>
+        </tr>
 
-            <div class="form-question">
-              <p class="text-form">Câu hỏi</p>
-              <textarea
-                class="input-form"
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-              ></textarea>
-            </div>
-          </form>
-          <div class="button">
-            <a class="btn" href="#">Gửi ngay</a>
-          </div>
-        </div>
-        <div class="col-1">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d954091.723052763!2d105.94723596407002!3d20.91550611322959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac16f052bfff%3A0x1b2d644fdf1b4bae!2zQ8O0bmcgVHkgQ-G7lSBQaOG6p24gQsOhbmggS-G6uW8gSOG6o2kgTWluaA!5e0!3m2!1svi!2s!4v1706342971917!5m2!1svi!2s"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+        <tr>
+          <td><p>3</p></td>
+          <td><p>Giỏ quà phát tài</p></td>
+          <td><p>5.000.000 VNĐ</p></td>
+          <td><p>1</p></td>
+          <td><img src="/img/best-1.png" alt="" /></td>
+        </tr>
+
+        <tr>
+          <td><p>2</p></td>
+          <td><p>Giỏ quà wine & cheese</p></td>
+          <td><p>1.000.000 VNĐ</p></td>
+          <td><p>1</p></td>
+          <td><img src="/img/best-3.png" alt="" /></td>
+        </tr>
+
+        <tr>
+          <td><p>2</p></td>
+          <td><p>Giỏ quà phát tài</p></td>
+          <td><p>3.000.000 VNĐ</p></td>
+          <td><p>1</p></td>
+          <td><img src="/img/best-3.png" alt="" /></td>
+        </tr>
+      </table>
+
+      <div class="paganation">
+        <a class="checked" href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">...</a>
+        <a href="">7</a>
+        <a href=""><i class="fa-solid fa-chevron-right"></i></a>
       </div>
     </section>
-    <!-- section contact end -->
+
+    <!-- section product price end -->
 
     <!-- section footer start -->
     <div style="background-color: #a50413">

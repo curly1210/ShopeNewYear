@@ -1,0 +1,64 @@
+.product-price {
+  margin-top: 3.2rem;
+}
+.product-price table {
+  width: 100%;
+  border-collapse: separate;
+  border: 1px solid rgb(165, 4, 19);
+  border-spacing: 0;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.product-price table th:nth-child(1) {
+  width: 5%;
+}
+.product-price table th:nth-child(2) {
+  width: 25%;
+}
+.product-price table th:nth-child(3) {
+  width: 25%;
+}
+.product-price table th:nth-child(4) {
+  width: 20%;
+}
+.product-price table th:nth-child(5) {
+  width: 25%;
+}
+.product-price table tr th {
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 700;
+  padding: 1.6rem 0;
+  border: 1px solid rgb(165, 4, 19);
+  background-color: rgba(165, 4, 19, 0.6);
+}
+.product-price table tr td {
+  text-align: center;
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 500;
+  padding: 1rem 0;
+  border: 1px solid rgb(165, 4, 19);
+}
+.product-price table tr td img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 7px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 7px;
+}
+
+tr:first-child th:first-child {
+  border-top-left-radius: 7px;
+}
+
+tr:first-child th:last-child {
+  border-top-right-radius: 7px;
+}
+
+/*# sourceMappingURL=product-price.css.map */

@@ -1,24 +1,3 @@
-.direction {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  margin-top: 2rem;
-  padding: 0;
-}
-.direction a {
-  line-height: 2;
-  font-size: 1.6rem;
-  color: #969697;
-  font-weight: 500;
-}
-.direction svg {
-  vertical-align: sub;
-}
-.direction .selected {
-  color: #2E2E2F;
-  font-weight: 700;
-}
-
 .contact {
   padding: 7rem 0;
 }
