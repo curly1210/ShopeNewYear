@@ -58,26 +58,62 @@ header .navbar a svg {
   vertical-align: text-top;
 }
 header .banner {
-  margin-top: 2rem;
+  position: relative;
+  background-color: #a50413;
 }
-header .banner .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-header .banner .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 8px 7px;
-}
-header .banner .swiper-pagination .swiper-pagination-bullet {
-  width: 1rem !important;
-  height: 1rem !important;
-  background: white !important;
-  opacity: 1 !important;
-}
-header .banner .swiper-pagination .swiper-pagination-bullet-active {
-  background: none !important;
-  border: 2px solid white;
-  width: 1.3rem !important;
-  height: 1.3rem !important;
-}
-header .banner img {
+header .banner .slider-wrapper {
+  display: flex;
   width: 100%;
+  transition: transform 300ms ease-in-out;
+}
+header .banner .slider-wrapper .slide {
+  flex: 1 0 100%;
+}
+header .banner .slider-wrapper .slide img {
+  display: block;
+}
+header .banner .button-banner {
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+  transform: translateX(50%);
+  display: flex;
+  justify-content: center;
+}
+header .banner .button-banner div {
+  display: flex;
+  gap: 10px;
+}
+header .banner .button-banner div button {
+  border: none;
+  font-size: 1.6rem;
+  padding: 0.6rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 800;
+  color: #a50413;
+  opacity: 0.5;
+}
+header .banner .button-banner div button:hover {
+  opacity: 1;
+}
+header .banner .arrow .left,
+header .banner .arrow .right {
+  position: absolute;
+  top: 50%;
+  transition: all 0.3s;
+  fill: #a50413;
+  cursor: pointer;
+}
+header .banner .arrow .left:hover,
+header .banner .arrow .right:hover {
+  fill: #fff;
+}
+header .banner .arrow .left {
+  left: 0;
+}
+header .banner .arrow .right {
+  right: 0;
 }
 header .notice {
   margin: 8rem 0;

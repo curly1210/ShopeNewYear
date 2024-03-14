@@ -46,10 +46,10 @@ img {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding-bottom: 7rem ;
-  // padding: 0rem 9% 7rem;
+  padding-bottom: 7rem;
+  // padding: 0rem 9%;
 }
 
 .full-width {
@@ -79,11 +79,11 @@ section {
   }
 
   svg {
-    vertical-align:sub;
+    vertical-align: sub;
   }
 
   .selected {
-    color: #2E2E2F;
+    color: #2e2e2f;
     font-weight: 700;
   }
 }
@@ -98,8 +98,6 @@ section {
   }
 }
 
-
-
 .paganation {
   display: flex;
   justify-content: center;
@@ -108,7 +106,7 @@ section {
   margin-top: 3rem;
 
   a {
-    width:35px;
+    width: 35px;
     height: 35px;
     font-size: 1.5rem;
     background-color: white;
@@ -129,10 +127,9 @@ section {
 
   .checked {
     border: none;
-      color: white;
-      background-color: $red;
+    color: white;
+    background-color: $red;
   }
-
 }
 
 .side-bar {
@@ -157,7 +154,7 @@ section {
       align-items: start;
       padding: 1.5rem 1rem;
       font-size: 1.6rem;
-      gap: 1.2rem ;
+      gap: 1.2rem;
       background: #0000000a;
       border-bottom-right-radius: 10px;
       border-bottom-left-radius: 10px;
@@ -176,7 +173,6 @@ section {
           border: none;
         }
       }
-      
     }
   }
 }
@@ -225,5 +221,3 @@ section {
 }
 
 // drop down menu
-
-

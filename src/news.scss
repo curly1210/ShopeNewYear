@@ -1,6 +1,6 @@
 .news {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 0.8fr;
   gap: 3rem;
   padding-top: 3.2rem;
 
@@ -34,7 +34,7 @@
       gap: 1rem;
       border: none;
       border-radius: 10px;
-      padding-bottom: 2.4rem ;
+      padding-bottom: 2.4rem;
 
       &:hover {
         // box-shadow: 0 0 15px 2px rgb(2 2 2 / 9%);
@@ -43,8 +43,8 @@
 
       .image {
         img {
-          border-top-left-radius: 10px ;
-          border-top-right-radius: 10px ;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
         }
       }
 
@@ -61,6 +61,4 @@
       }
     }
   }
-
-  
 }

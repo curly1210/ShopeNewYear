@@ -36,7 +36,7 @@ img {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-bottom: 7rem;
 }
@@ -67,7 +67,7 @@ section {
   vertical-align: sub;
 }
 .direction .selected {
-  color: #2E2E2F;
+  color: #2e2e2f;
   font-weight: 700;
 }
 

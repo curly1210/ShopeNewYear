@@ -1,6 +1,6 @@
 .products {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 0.8fr 3fr;
   gap: 3rem;
   padding-top: 3.2rem;
 }
@@ -11,10 +11,10 @@
 }
 .products .row .show {
   font-size: 1.4rem;
-  color: #2E2E2F;
+  color: #2e2e2f;
 }
 .products .row .show span {
-  color: #A50413;
+  color: #a50413;
   font-weight: 700;
 }
 .products .row .sort {
